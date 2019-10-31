@@ -6,3 +6,6 @@ java/.idea
 twitter-text.iml
 .DS_Store
 *.sw?
+dotnet/**/obj/
+dotnet/**/bin/
+dotnet/**/.vs/
