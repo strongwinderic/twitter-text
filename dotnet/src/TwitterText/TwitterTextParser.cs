@@ -187,7 +187,7 @@ namespace TwitterText
                     weightedCount += charWeight;
 
                     hasInvalidCharacters = hasInvalidCharacters ||
-                        Validator.hasInvalidCharacters(normalizedTweet.Substring(offset, offset + 1));
+                        Validator.hasInvalidCharacters(normalizedTweet.Substring(offset, 1));
 
                     int offsetDelta;
                     if (emojiLength != -1)
